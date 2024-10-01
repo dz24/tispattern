@@ -24,7 +24,7 @@ def tis(inp, outp, cap=250):
         else:
             enss[i[0]]['s'].append(enss[i[0]]['e'][-1])
             enss[i[0]]['e'].append(abs(i[2] - i[1]) + enss[i[0]]['e'][-1])
-    
+
     end = 0
     for i in range(len(enss[0.0]['s'])):
         idx = i%8
